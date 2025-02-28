@@ -1,0 +1,19 @@
+.body {
+    background-color: white;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Ensures the container fits the viewport */
+    width: 100%;
+    overflow: hidden; /* Prevents extra space */
+  }
+  
+  .responsive-image {
+    max-width: 90%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  

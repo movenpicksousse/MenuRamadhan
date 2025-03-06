@@ -1,21 +1,25 @@
-.body {
-    background-color: white;
-}
-.image-container {
+/* Supprime les marges et assure que le body prend toute la place */
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%; /* Ensures the container fits the viewport */
+    background-color: white;
+    overflow: hidden;
+}
+
+/* Le conteneur prend toute la largeur et hauteur de l'écran */
+.image-container {
+    width: 100vw;
+    height: 100vh;
+}
+
+/* L'image couvre tout l'écran sans être déformée */
+.responsive-image {
     width: 100%;
-    overflow: hidden; /* Prevents extra space */
-  }
-  
-  .responsive-image {
-    width: 99vw;
-    height: 99vh;
-    object-fit: cover;
-    display: block;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  }
-  
+    height: 100%;
+    object-fit: cover; /* Ajuste l'image pour remplir l'écran tout en gardant le ratio */
+}

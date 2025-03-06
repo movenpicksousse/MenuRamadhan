@@ -15,6 +15,7 @@ body {
     height: 100vh;
     overflow: hidden; /* Assure que tout débordement est caché  */
     border-radius: 7px; /* Arrondi les bords du conteneur */
+    margin: 0 3px 0 3px;
 }
 
 .responsive-image {

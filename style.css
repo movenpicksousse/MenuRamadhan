@@ -24,4 +24,7 @@ body {
     object-fit: cover; /* Ajuste l'image pour couvrir tout l'écran sans déformation */
     border-radius: 0; /* Supprime le border-radius pour un affichage plein écran */
     box-shadow: none; /* Supprime l'ombre pour un affichage propre */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

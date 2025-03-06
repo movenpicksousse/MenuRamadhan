@@ -1,7 +1,5 @@
 body { 
-    background-color: white;
-    margin: 0; /* Supprime les marges */
-    padding: 0;
+    background-color: coral;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,6 +24,4 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     display: block;
-    margin-left: auto;
-    margin-right: auto;
 }

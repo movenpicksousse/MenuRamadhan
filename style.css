@@ -13,7 +13,7 @@ body {
     align-items: center;
     width: 100vw;
     height: 100vh;
-    overflow: hidden; /* Assure que tout débordement est caché */
+    overflow: hidden; /* Assure que tout débordement est caché  */
     border-radius: 7px; /* Arrondi les bords du conteneur */
 }
 

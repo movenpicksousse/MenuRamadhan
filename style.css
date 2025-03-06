@@ -1,24 +1,18 @@
-body { 
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Prend toute la hauteur de l'écran */
-    width: 100vw; /* Prend toute la largeur de l'écran */
+.body {
+    background-color: red;
 }
-
 .image-container {
-    width: 95vw;
-    height: 95vh;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.responsive-image {
+    height: 100%; /* Ensures the container fits the viewport */
     width: 100%;
-    height: 100%;
-    justify-content: center;
-    object-fit: cover; /* Ajuste l'image pour couvrir tout l'écran sans déformation */
-    border-radius: 2%;
-}
+  }
+  
+  .responsive-image {
+    max-width: 90%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  

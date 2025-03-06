@@ -16,8 +16,8 @@ body {
 }
 
 .responsive-image {
-    width: 100%;
-    height: 100%;
+    width: 95%;
+    height: 95%;
     justify-content: center;
     object-fit: cover; /* Ajuste l'image pour couvrir tout l'écran sans déformation */
     border-radius: 10px;

@@ -11,15 +11,11 @@
   }
   
   .responsive-image {
-    max-width: 90%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  }
-  .img {
     width: 99vw;
     height: 99vh;
     object-fit: cover;
     display: block;
-}
-
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  

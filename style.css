@@ -1,18 +1,26 @@
 body {
     background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
+
 .image-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%; /* Ensures the container fits the viewport */
-    width: 100%;
-  }
-  
-  .responsive-image {
-    max-width: 90%;
-    height: auto;
-    border-radius: 10px;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden; /* Assure que tout débordement est caché */
+    border-radius: 10px; /* Arrondi les bords du conteneur */
+}
+
+.responsive-image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* Garde l’image bien proportionnée */
+    border-radius: 20px; /* Applique l’arrondi à l’image */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  }
-  
+}

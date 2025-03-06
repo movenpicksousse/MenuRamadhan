@@ -3,9 +3,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90vh; /* Prend toute la hauteur de l'écran */
-    width: 90vw; /* Prend toute la largeur de l'écran */
-    overflow: hidden; /* Empêche le défilement */
+    height: 100vh; /* Prend toute la hauteur de l'écran */
+    width: 100vw; /* Prend toute la largeur de l'écran */
 }
 
 .image-container {

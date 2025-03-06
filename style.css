@@ -1,5 +1,5 @@
 body { 
-    background-color: blue;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,8 +16,8 @@ body {
 }
 
 .responsive-image {
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     justify-content: center;
     object-fit: cover; /* Ajuste l'image pour couvrir tout l'écran sans déformation */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);

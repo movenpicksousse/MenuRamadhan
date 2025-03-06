@@ -1,19 +1,27 @@
-.body {
+body {
     background-color: white;
-}
-.image-container {
+    margin: 0; /* Supprime les marges */
+    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%; /* Ensures the container fits the viewport */
+    height: 100vh; /* Prend toute la hauteur de l'écran */
+    width: 100vw; /* Prend toute la largeur de l'écran */
+    overflow: hidden; /* Empêche le défilement */
+}
+
+.image-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.responsive-image {
     width: 100%;
-    overflow: hidden; /* Prevents extra space */
-  }
-  
-  .responsive-image {
-    max-width: 90%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  }
-  
+    height: 100%;
+    object-fit: cover; /* Ajuste l'image pour couvrir tout l'écran sans déformation */
+    border-radius: 0; /* Supprime le border-radius pour un affichage plein écran */
+    box-shadow: none; /* Supprime l'ombre pour un affichage propre */
+}

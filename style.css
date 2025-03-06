@@ -25,3 +25,11 @@ body {
     border-radius: 0; /* Supprime le border-radius pour un affichage plein écran */
     box-shadow: none; /* Supprime l'ombre pour un affichage propre */
 }
+
+img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    display: block;
+}
+

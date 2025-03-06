@@ -1,5 +1,5 @@
 body { 
-    background-color: lightblue;
+    background-color: blue;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,7 +20,5 @@ body {
     height: 90%;
     justify-content: center;
     object-fit: cover; /* Ajuste l'image pour couvrir tout l'écran sans déformation */
-    border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    display: block;
 }

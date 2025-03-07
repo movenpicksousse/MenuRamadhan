@@ -23,5 +23,5 @@ body {
     max-height: 100%;
     object-fit: contain; /* Garde l’image bien proportionnée */
     border-radius: 7px; /* Applique l’arrondi à l’image */
-    box-shadow: 0 4px 45px #042546;
+    /* box-shadow: 0 4px 45px #042546; */
 }
